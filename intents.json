@@ -1,0 +1,90 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "program",
+        "patterns": [
+          "How long does bachelor's degree last?",
+          "How long does master's degree last?",
+          "How long does phd's degree last?"
+        ],
+        "responses": [
+          "Bachelor's Degree: Typically lasts 4 years.",
+          "Master's Degree: Generally lasts 1.5 to 2 years.",
+          "PhD's Degree: Usually takes 3 to 5 years."
+        ]
+      },
+      {
+        "tag": "scholarship",
+        "patterns": [
+          "Are there scholarship available?",
+          "How do I apply for scholarship as an international student?,",
+          "What types of scholarship are available in Khon Kaen University?",
+          "Does Khon Kaen University award extra scholarships for specific majors and talents?"
+        ],
+        "responses": [
+          "Scholarships: Yes, Khon Kaen University offers scholarships for both Thai and international students.",
+          "You need to: Check the scholarship criteria and deadlines on the university website, Prepare necessary documents (e.g., academic records, recommendation letters), Submit the scholarship application form along with your application for admission",
+          "Types of Scholarships: Include merit-based scholarships, need-based scholarships, and scholarships for specific faculties or research projects.",
+          "Extra Scholarships for Specific Majors and Talents: Yes, some faculties and departments offer additional scholarships based on academic excellence, research potential, or specific talents."
+        ]
+      },
+      {
+        "tag": "price",
+        "patterns": [
+          "How can I pay my school fees as an international student?"
+        ],
+        "responses": [
+          "Cost for 1 Semester: Tuition fees vary by program and faculty. On average, it can range from approximately 20,000 to 60,000 THB per semester for international students. OR you can visit more information in this website https://app.gs.kku.ac.th/images/img/news/announcement/Tuition%20fee.pdf "
+        ]
+      },
+      {
+        "tag": "information",
+        "patterns": [
+          "What is the process of applying to Khon Kaen University?",
+          "When can I start applying for new semester?",
+          "Where is Khon Kaen University located?",
+          "What is it like to live on Khon Kaen University campus?",
+          "What are the work-study opportunity in Khon Kaen University?"
+        ],
+        "responses": [
+          "Submitting an online application form, Providing academic transcripts and certificate, English proficiency test scores (if applicable), Letters of recommendation, Statement of purpose or personal statement",
+          "Application Period: The application period for a new semester varies by program and academic year. It is best to check the official website or contact the admissions office for the most accurate dates.",
+          "Location: Khon Kaen University is located in Khon Kaen, Thailand.",
+          "Campus Life: Living on campus offers access to various facilities such as dormitories, libraries, sports complexes, and student organizations. The environment is generally vibrant and conducive to both academic and social activities.",
+          "Work-Study Opportunities: The university provides work-study programs where students can work part-time on campus to support their studies. These opportunities may be available in various departments and administrative offices."
+        ]
+      }
+    ]
+  }
+  
