@@ -1,90 +1,210 @@
 {
-    "intents": [
-      {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
-        ],
-        "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "program",
+      "patterns": [
+        "What study programs are offered at Khon Kaen University?",
+        "Does Khon Kaen University offer any programs in English?",
+        "Is there a student exchange program at Khon Kaen University?",
+        "How long does bachelor's degree last?",
+        "How long does master's degree last?",
+        "How long does doctoral's degree last?",
+        "What programs are offered at Khon Kaen University?",
+        "What courses can I study at Khon Kaen University?",
+        "Can you tell me about the study programs at Khon Kaen University?",
+        "What majors are available at Khon Kaen University?",
+        "What academic programs does Khon Kaen University have?"
+      ],
+      "responses": [
+        "Khon Kaen University offers a wide range of undergraduate, master's, and doctoral programs across various faculties. Visit the university website for a detailed list of available programs.",
+        "You can choose from a variety of programs at Khon Kaen University, including arts, sciences, engineering, medicine, and more. Please check the course catalog on the website for more information.",
+        "Bachelor's Degree: Typically lasts 4 years.",
+        "Master's Degree: Generally lasts 1.5 to 2 years.",
+        "Doctoral's Degree: Usually takes 3 to 5 years."
         ]
-      },
-      {
-        "tag": "goodbye",
-        "patterns": ["Bye", "See you later", "Goodbye"],
-        "responses": [
-          "See you later, thanks for visiting",
-          "Have a nice day",
-          "Bye! Come back again soon."
-        ]
-      },
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
-      },
-      {
-        "tag": "program",
-        "patterns": [
-          "How long does bachelor's degree last?",
-          "How long does master's degree last?",
-          "How long does phd's degree last?"
-        ],
-        "responses": [
-          "Bachelor's Degree: Typically lasts 4 years.",
-          "Master's Degree: Generally lasts 1.5 to 2 years.",
-          "PhD's Degree: Usually takes 3 to 5 years."
-        ]
-      },
-      {
-        "tag": "scholarship",
-        "patterns": [
-          "Are there scholarship available?",
-          "How do I apply for scholarship as an international student?,",
-          "What types of scholarship are available in Khon Kaen University?",
-          "Does Khon Kaen University award extra scholarships for specific majors and talents?"
-        ],
-        "responses": [
-          "Scholarships: Yes, Khon Kaen University offers scholarships for both Thai and international students.",
-          "You need to: Check the scholarship criteria and deadlines on the university website, Prepare necessary documents (e.g., academic records, recommendation letters), Submit the scholarship application form along with your application for admission",
-          "Types of Scholarships: Include merit-based scholarships, need-based scholarships, and scholarships for specific faculties or research projects.",
-          "Extra Scholarships for Specific Majors and Talents: Yes, some faculties and departments offer additional scholarships based on academic excellence, research potential, or specific talents."
-        ]
-      },
-      {
-        "tag": "price",
-        "patterns": [
-          "How can I pay my school fees as an international student?"
-        ],
-        "responses": [
-          "Cost for 1 Semester: Tuition fees vary by program and faculty. On average, it can range from approximately 20,000 to 60,000 THB per semester for international students. OR you can visit more information in this website https://app.gs.kku.ac.th/images/img/news/announcement/Tuition%20fee.pdf "
-        ]
-      },
-      {
-        "tag": "information",
-        "patterns": [
-          "What is the process of applying to Khon Kaen University?",
-          "When can I start applying for new semester?",
-          "Where is Khon Kaen University located?",
-          "What is it like to live on Khon Kaen University campus?",
-          "What are the work-study opportunity in Khon Kaen University?"
-        ],
-        "responses": [
-          "Submitting an online application form, Providing academic transcripts and certificate, English proficiency test scores (if applicable), Letters of recommendation, Statement of purpose or personal statement",
-          "Application Period: The application period for a new semester varies by program and academic year. It is best to check the official website or contact the admissions office for the most accurate dates.",
-          "Location: Khon Kaen University is located in Khon Kaen, Thailand.",
-          "Campus Life: Living on campus offers access to various facilities such as dormitories, libraries, sports complexes, and student organizations. The environment is generally vibrant and conducive to both academic and social activities.",
-          "Work-Study Opportunities: The university provides work-study programs where students can work part-time on campus to support their studies. These opportunities may be available in various departments and administrative offices."
-        ]
-      }
-    ]
-  }
-  
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "How do I apply for scholarship as an international student?,",
+        "What types of scholarship are available in Khon Kaen University?",
+        "Does Khon Kaen University award extra scholarships for specific majors and talents?",
+        "Does Khon Kaen University offer scholarships?",
+        "Are there any scholarships available at Khon Kaen University?",
+        "How can I apply for scholarships at Khon Kaen University?",
+        "What scholarships are available for students at Khon Kaen University?",
+        "Can I get a scholarship to study at Khon Kaen University?"
+      ],
+      "responses": [
+        "Scholarships: Yes, Khon Kaen University offers scholarships for both Thai and international students.",
+        "You need to: Check the scholarship criteria and deadlines on the university website, Prepare necessary documents (e.g., academic records, recommendation letters), Submit the scholarship application form along with your application for admission",
+        "Types of Scholarships: Include merit-based scholarships, need-based scholarships, and scholarships for specific faculties or research projects.",
+        "Extra Scholarships for Specific Majors and Talents: Yes, some faculties and departments offer additional scholarships based on academic excellence, research potential, or specific talents.",
+        "Yes, Khon Kaen University offers various scholarships. You can find more information and apply through the university's scholarship portal.",
+        "Khon Kaen University provides multiple scholarships based on academic performance and financial need. Check the scholarship section of the university website for more details."
+      ]
+    },
+    {
+      "tag": "information",
+      "patterns": [
+        "What is the process of applying to Khon Kaen University?",
+        "When can I start applying for new semester?",
+        "Where is Khon Kaen University located?",
+        "What is it like to live on Khon Kaen University campus?",
+        "What are the work-study opportunity in Khon Kaen University?"
+      ],
+      "responses": [
+        "Submitting an online application form, Providing academic transcripts and certificate, English proficiency test scores (if applicable), Letters of recommendation, Statement of purpose or personal statement",
+        "Application Period: The application period for a new semester varies by program and academic year. It is best to check the official website or contact the admissions office for the most accurate dates.",
+        "Location: Khon Kaen University is located in Khon Kaen, Thailand.",
+        "Campus Life: Living on campus offers access to various facilities such as dormitories, libraries, sports complexes, and student organizations. The environment is generally vibrant and conducive to both academic and social activities.",
+        "Work-Study Opportunities: The university provides work-study programs where students can work part-time on campus to support their studies. These opportunities may be available in various departments and administrative offices."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "What is the address of Khon Kaen University?",
+        "Where is Khon Kaen University located?",
+        "Can you tell me the location of Khon Kaen University?",
+        "Where can I find Khon Kaen University?",
+        "What's the location of Khon Kaen University?"
+      ],
+      "responses": [
+        "The full address of Khon Kaen University is 123 Mittraphap Rd, Nai Mueang, Mueang Khon Kaen District, Khon Kaen, Thailand.",
+        "Khon Kaen University is located at 123 Mittraphap Rd, Nai Mueang, Mueang Khon Kaen District, Khon Kaen."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How do I apply for Khon Kaen University?",
+        "What is the admission process for Khon Kaen University?",
+        "How can I get admitted to Khon Kaen University?",
+        "What are the application procedures at Khon Kaen University?",
+        "What steps are involved in applying to Khon Kaen University?"
+      ],
+      "responses": [
+        "You can apply for Khon Kaen University through the online portal. Please visit https://admissions.kku.ac.th for more details.",
+        "The admission process can be done online. For detailed instructions, visit the university official website."
+      ]
+    },
+    {
+      "tag": "tuition",
+      "patterns": [
+        "How much is the tuition fee at Khon Kaen University?",
+        "What are the tuition fees for Khon Kaen University?",
+        "What is the cost of studying at Khon Kaen University?",
+        "Can you tell me the tuition fee for Khon Kaen University?",
+        "What is the fee structure at Khon Kaen University?",
+        "How can I pay my school fees as an international student?"
+      ],
+      "responses": [
+        "The tuition fees vary depending on the program and level of study. Please visit the official website or contact the admissions office for detailed information.",
+        "The fee structure at Khon Kaen University depends on your program. It's best to check the university website for exact figures.",
+        "Cost for 1 Semester: Tuition fees vary by program and faculty. On average, it can range from approximately 20,000 to 60,000 THB per semester for international students. OR you can visit more information in this website https://app.gs.kku.ac.th/images/img/news/announcement/Tuition%20fee.pdf "
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities are available at Khon Kaen University?",
+        "What are the campus facilities at Khon Kaen University?",
+        "Does Khon Kaen University have a library?",
+        "Can you tell me about the facilities at Khon Kaen University?",
+        "Are there any sports facilities at Khon Kaen University?"
+      ],
+      "responses": [
+        "Khon Kaen University offers a range of facilities including a library, sports complex, student center, laboratories, and more. You can explore all the facilities on the university website.",
+        "The campus provides numerous facilities such as a library, gym, cafeterias, and labs for student use. Detailed information is available on the official site."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "Is there student accommodation at Khon Kaen University?",
+        "Does Khon Kaen University provide dormitories?",
+        "Where can I live if I study at Khon Kaen University?",
+        "Are there any dorms at Khon Kaen University?",
+        "Can I get accommodation on campus at Khon Kaen University?"
+      ],
+      "responses": [
+        "Yes, Khon Kaen University provides on-campus accommodation for students. You can apply for dormitories through the student housing office.",
+        "There are dormitories available for students at Khon Kaen University. Check the housing portal on the university website for more information. https://dorm.kku.ac.th/"
+      ]
+    },
+    {
+      "tag": "international_students",
+      "patterns": [
+        "Does Khon Kaen University accept international students?",
+        "Can international students apply to Khon Kaen University?",
+        "What is life like for international students at Khon Kaen University?",
+        "Is Khon Kaen University suitable for international students?",
+        "What support is available for international students at Khon Kaen University?"
+      ],
+      "responses": [
+        "Khon Kaen University welcomes international students and offers various support services, including language assistance, international student offices, and cultural programs.",
+        "International students are an important part of Khon Kaen University. The university provides resources such as language courses and dedicated support staff to help with your transition."
+      ]
+    },
+    {
+      "tag": "organizations",
+      "patterns": [
+        "What student organizations are there at Khon Kaen University?",
+        "Can I join clubs at Khon Kaen University?",
+        "What student clubs are available at Khon Kaen University?",
+        "Are there any student organizations I can join at Khon Kaen University?",
+        "How can I participate in student groups at Khon Kaen University?"
+      ],
+      "responses": [
+        "Khon Kaen University has a wide range of student organizations, including academic, cultural, sports, and social clubs. You can join through the student activities office.",
+        "There are many clubs and organizations at Khon Kaen University for students to join, ranging from arts and culture to sports and academics."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "Can I access the library at Khon Kaen University?",
+        "Is there a library at Khon Kaen University?",
+        "What are the library services at Khon Kaen University?",
+        "How can I use the library at Khon Kaen University?",
+        "Does Khon Kaen University have a library?"
+      ],
+      "responses": [
+        "Yes, Khon Kaen University has a fully equipped library. Students can access it using their student ID. Check the university website for library hours.",
+        "The library at Khon Kaen University offers a wide range of resources and services, and is open to all students. You can find more information on the library's official page."
+      ]
+    }
+  ]
+}
