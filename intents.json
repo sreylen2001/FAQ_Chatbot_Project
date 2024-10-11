@@ -18,8 +18,8 @@
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "bye",
+      "patterns": ["Bye", "See you later"],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -55,9 +55,9 @@
         ]
     },
     {
-      "tag": "scholarship",
+      "tag": "scholars",
       "patterns": [
-        "How do I apply for scholarship as an international student?,",
+        "How do I apply for scholarship as an overseas student?",
         "What types of scholarship are available in Khon Kaen University?",
         "Does Khon Kaen University award extra scholarships for specific majors and talents?",
         "Does Khon Kaen University offer scholarships?",
@@ -80,14 +80,12 @@
       "patterns": [
         "What is the process of applying to Khon Kaen University?",
         "When can I start applying for new semester?",
-        "Where is Khon Kaen University located?",
         "What is it like to live on Khon Kaen University campus?",
         "What are the work-study opportunity in Khon Kaen University?"
       ],
       "responses": [
         "Submitting an online application form, Providing academic transcripts and certificate, English proficiency test scores (if applicable), Letters of recommendation, Statement of purpose or personal statement",
         "Application Period: The application period for a new semester varies by program and academic year. It is best to check the official website or contact the admissions office for the most accurate dates.",
-        "Location: Khon Kaen University is located in Khon Kaen, Thailand.",
         "Campus Life: Living on campus offers access to various facilities such as dormitories, libraries, sports complexes, and student organizations. The environment is generally vibrant and conducive to both academic and social activities.",
         "Work-Study Opportunities: The university provides work-study programs where students can work part-time on campus to support their studies. These opportunities may be available in various departments and administrative offices."
       ]
@@ -137,11 +135,10 @@
       ]
     },
     {
-      "tag": "facilities",
+      "tag": "equipments",
       "patterns": [
         "What facilities are available at Khon Kaen University?",
         "What are the campus facilities at Khon Kaen University?",
-        "Does Khon Kaen University have a library?",
         "Can you tell me about the facilities at Khon Kaen University?",
         "Are there any sports facilities at Khon Kaen University?"
       ],
@@ -165,17 +162,17 @@
       ]
     },
     {
-      "tag": "international_students",
+      "tag": "foreign-students",
       "patterns": [
-        "Does Khon Kaen University accept international students?",
-        "Can international students apply to Khon Kaen University?",
-        "What is life like for international students at Khon Kaen University?",
-        "Is Khon Kaen University suitable for international students?",
-        "What support is available for international students at Khon Kaen University?"
+        "Does Khon Kaen University accept foreign students?",
+        "Can foreign students apply to Khon Kaen University?",
+        "What is life like for foreign students at Khon Kaen University?",
+        "Is Khon Kaen University suitable for foreign students?",
+        "What support is available for foreign students at Khon Kaen University?"
       ],
       "responses": [
-        "Khon Kaen University welcomes international students and offers various support services, including language assistance, international student offices, and cultural programs.",
-        "International students are an important part of Khon Kaen University. The university provides resources such as language courses and dedicated support staff to help with your transition."
+        "Khon Kaen University welcomes foreign students and offers various support services, including language assistance, foreign student offices, and cultural programs.",
+        "Foreign students are an important part of Khon Kaen University. The university provides resources such as language courses and dedicated support staff to help with your transition."
       ]
     },
     {
